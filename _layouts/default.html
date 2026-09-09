@@ -14,45 +14,44 @@
     </head>
     <body>
         <div class="container">
-            <!-- This is a bit nasty, but it basically says be a column first, and on larger screens be a spaced out row -->
-            <div class="header d-flex
-            flex-column
-            flex-md-row justify-content-md-between">
-                <a href="{{ site.base }}/" class="">
-                    <img src="{{ site.base }}/img/Trustworthy ML UoM_2.png"
-                         alt="trustworthyml" id="logo">
-                </a>
-                <!-- <a href="{{ site.base }}/">
-                    <img src="{{ site.base }}/img/Trustworthy ML UoM_banner_2.png"
-                         alt="trustworthyml">
-                </a> -->
-                <h1 style="font-weight: bold;">TRUSTWORTHY ML UOM<br />RESEARCH GROUP</h1>
-                <ul class="nav nav-pills justify-content-center">
+            <div class="header">
 
-                    {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
-                    {% for item in site.navigation %}
+    <!-- Research group logo / branding -->
+    <a href="{{ site.base }}/" class="group-brand">
+        <img src="{{ site.base }}/img/logo.png"
+             alt="Trustworthy AI Research Group"
+             id="logo">
+    </a>
 
-                        {% assign itemshorturl = item.link | replace:'.html','' %}
+    <!-- Navigation -->
+    <nav class="group-nav">
+        <ul class="nav nav-pills justify-content-center">
+            {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
+            {% for item in site.navigation %}
 
-                        {% assign maybe-active = '' %}
-                        {% if item.title == 'Research' and page.layout == 'project' %}
-                            {% assign maybe-active = 'active' %}
-                        {% endif %}
-                        {% if itemshorturl == shorturl or is-research %}
-                            {% assign maybe-active = 'active' %}
-                        {% endif %}
+                {% assign itemshorturl = item.link | replace:'.html','' %}
+                {% assign maybe-active = '' %}
 
-                        <li class="nav-item">
-                            <a class="nav-link {{ maybe-active }}"
-                               href="{{ site.base }}{{ item.link }}">
-                                {{ item.title }}
-                            </a>
-                        </li>
+                {% if item.title == 'Research' and page.layout == 'project' %}
+                    {% assign maybe-active = 'active' %}
+                {% endif %}
 
-                    {% endfor %}
+                {% if itemshorturl == shorturl or is-research %}
+                    {% assign maybe-active = 'active' %}
+                {% endif %}
 
-                </ul>
-            </div>
+                <li class="nav-item">
+                    <a class="nav-link {{ maybe-active }}"
+                       href="{{ site.base }}{{ item.link }}">
+                        {{ item.title }}
+                    </a>
+                </li>
+
+            {% endfor %}
+        </ul>
+    </nav>
+
+</div>
 
             {% if page.image %}
                 <img src="{{ page.image }}"
