@@ -16,19 +16,30 @@ profx:
     webpage: "https://www.linkedin.com/in/indika-perera-2aa7955/?originalSubdomain=lk"
     role: faculty
     image: /img/people/Prof.Indika.jpg
+# ------------------------------------------------------------
+# MSc by Research - Current
+# ------------------------------------------------------------
+sameera:
+    display_name: "Sandeepa Weerasekara"
+    webpage: "https://www.linkedin.com/in/sandeepa-weerasekara-882477219/"
+    role: grad
+    image: /img/people/sandeepa.jpg
 
 madushika:
-    display_name: "Madhushika Sewwandi"
-    webpage: "https://www.linkedin.com/in/madushika-sewwandi-924a7690/"
+    display_name: "Thilini Tharushika"
+    webpage: "https://www.linkedin.com/in/thilini-tharushika/"
     role: grad
-    image: /img/people/madushika.jpeg
-
-sameera:
-    display_name: "Sameera Nandasiri"
-    webpage: "https://www.linkedin.com/in/sameeranandasiri/?originalSubdomain=lk"
+    image: /img/people/thilini.jpeg
+# ------------------------------------------------------------
+# MSc by Research - Current
+# ------------------------------------------------------------
+madushika:
+    display_name: "Nirasha Munasinghe"
+    webpage: "https://www.linkedin.com/in/nirasha-munasinghe-2023j/"
     role: grad
-    image: /img/people/sameera.jpg
+    image: /img/people/nirasha.jpeg
 
+    
 collab-a:
     display_name: "Dr. Sanka Rasnayake, NUS"
     webpage: "https://www.comp.nus.edu.sg/cs/people/sanka/"
