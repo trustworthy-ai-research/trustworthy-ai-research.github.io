@@ -13,21 +13,21 @@ body {
 
 .header {
     border-bottom: 1px solid $light-gray;
-    padding: 20px 0 14px 0;
+    padding: 10px 0 14px 0;
     margin-bottom: 30px;
     text-align: center;
 }
 
 .group-brand {
     display: block;
-    text-decoration: none;
+    width: 100%;
 }
 
 #logo {
     width: 100%;
-    max-width: 1050px;
+    max-width: 1200px;
     height: auto;
-    margin: 0 auto 18px auto;
+    margin: 0 auto 15px auto;
     display: block;
 }
 
