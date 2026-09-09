@@ -19,13 +19,13 @@ profx:
 # ------------------------------------------------------------
 # MSc by Research - Current
 # ------------------------------------------------------------
-sameera:
+sandeepa:
     display_name: "Sandeepa Weerasekara"
     webpage: "https://www.linkedin.com/in/sandeepa-weerasekara-882477219/"
     role: grad
     image: /img/people/sandeepa.jpg
 
-madushika:
+thilini:
     display_name: "Thilini Tharushika"
     webpage: "https://www.linkedin.com/in/thilini-tharushika/"
     role: grad
@@ -33,12 +33,109 @@ madushika:
 # ------------------------------------------------------------
 # MSc by Research - Current
 # ------------------------------------------------------------
-madushika:
+nirasha:
     display_name: "Nirasha Munasinghe"
     webpage: "https://www.linkedin.com/in/nirasha-munasinghe-2023j/"
     role: grad
     image: /img/people/nirasha.jpeg
 
+# ------------------------------------------------------------
+# MSc by Taught Course - Current
+# Names only
+# ------------------------------------------------------------
+affin:
+  display_name: Affin Ajanthan
+  role: msc_taught_current
+
+suchira:
+display_name: Suchira Wanasinghe
+  role: msc_taught_current
+
+yasan:
+display_name: MYB Ranasinghe
+  role: msc_taught_current
+
+chamika:
+display_name: Chamika Gunarathna
+  role: msc_taught_current
+
+priyanthi:
+display_name: Priyanthi
+  role: msc_taught_current
+
+chamith:
+display_name: Chamith Mirissage
+  role: msc_taught_current
+
+display_name: Nuwan Sanjeewa
+  role: msc_taught_current
+
+nuwan:
+display_name: Manjitha Kularatne
+  role: msc_taught_current
+
+
+# ------------------------------------------------------------
+# MSc by Taught Course - Alumni
+# Names only
+# ------------------------------------------------------------
+
+shamila:
+display_name: Shamila Dasanayaka
+  role: msc_taught_alumni
+
+pasadie:
+
+display_name: Pasadie Panawenna
+  role: msc_taught_alumni
+
+
+# ------------------------------------------------------------
+# Undergraduate - Current
+# Names only
+# ------------------------------------------------------------
+
+ovindu:
+display_name: Ovindu Athukorala
+  role: undergraduate_current
+
+biruthaban:
+display_name: V. Birunthaban
+  role: undergraduate_current
+
+illampooran:
+display_name: R. Ilampoornan
+  role: undergraduate_current
+
+shaveen:
+display_name: Shaveen Silva
+  role: undergraduate_current
+
+
+# ------------------------------------------------------------
+# Undergraduate - Alumni
+# Names only
+# ------------------------------------------------------------
+
+nipun:
+display_name: Nipun Deelaka
+  role: undergraduate_alumni
+
+devin:
+display_name: Devin De Silva
+  role: undergraduate_alumni
+  
+ruwan:
+display_namee: Ruwan Ranasinghe
+  role: undergraduate_alumni
+
+suwan:
+display_name: Suwan Sankaja
+  role: undergraduate_alumni
+
+sandeeptha:
+display_name: R. P. G Sandeeptha
+  role: undergraduate_alumni
     
 collab-a:
     display_name: "Dr. Sanka Rasnayake, NUS"
