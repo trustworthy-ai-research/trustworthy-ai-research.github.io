@@ -4,18 +4,6 @@ prof-a:
     webpage: "http://sandareka.github.io/"
     role: faculty
     image: /img/people/Photo.jpg
-
-prof-b:
-    display_name: "Prof. Dulani Meedeniya"
-    webpage: "https://sites.google.com/site/dameedeniya/"
-    role: faculty
-    image: /img/people/Prof.Dulani.jpg
-
-profx:
-    display_name: "Prof. Indika Perera"
-    webpage: "https://www.linkedin.com/in/indika-perera-2aa7955/?originalSubdomain=lk"
-    role: faculty
-    image: /img/people/Prof.Indika.jpg
 # ------------------------------------------------------------
 # MSc by Research - Current
 # ------------------------------------------------------------
