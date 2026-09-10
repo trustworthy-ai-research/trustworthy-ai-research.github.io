@@ -11,11 +11,34 @@ picture-role-groups:
 ---
 
 <section class="people row justify-content-between">
-    {% for role-group in page.picture-role-groups %}
-        <div class="col-md-{{ role-group.width }}">
-            {% for role in role-group.roles %}
-                {% include role-people.html role=role image=true %}
-            {% endfor %}
-        </div>
-    {% endfor %}
+<section class="people">
+
+    <!-- Faculty -->
+    {% include role-people.html role="faculty" image=true %}
+
+
+    <!-- MSc by Research -->
+    {% include role-people.html role="grad" image=true %}
+
+
+    <!-- MSc by Taught Course - Current -->
+    {% include role-people.html role="msc_taught_current" image=false %}
+
+
+    <!-- MSc by Taught Course - Alumni -->
+    {% include role-people.html role="msc_taught_alumni" image=false %}
+
+
+    <!-- Undergraduate - Current -->
+    {% include role-people.html role="undergraduate_current" image=false %}
+
+
+    <!-- Undergraduate - Alumni -->
+    {% include role-people.html role="undergraduate_alumni" image=false %}
+
+
+    <!-- Collaborators -->
+    {% include role-people.html role="collab" image=true %}
+
+</section>
 </section>
