@@ -4,6 +4,10 @@ prof-a:
     webpage: "http://sandareka.github.io/"
     role: faculty
     image: /img/people/Photo.jpg
+prof-b:
+    display_name: "Prof. Dulani Meedeniya"
+    webpage: "https://sites.google.com/site/dameedeniya/"
+    role: faculty
 # ------------------------------------------------------------
 # MSc by Research - Current
 # ------------------------------------------------------------
