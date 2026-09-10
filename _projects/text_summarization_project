@@ -1,0 +1,18 @@
+---
+title: Explainable AI for Building Trustworthy TransformerBased Abstractive Summarization Models
+
+description: |
+ This project proposes a novel framework for explaining which facts have been excluded from a summary by a given AS model and the rationale behind the selections.
+
+people:
+  - prof-a
+  - collab-a
+  - madushika
+  - prof-b
+  - profx
+
+layout: project
+last-updated: 2022-05-01
+---
+Abstractive summarization (AS) is a natural language processing (NLP) task that generates a concise and coherent summary of a given document by rephrasing or paraphrasing the content, capturing the essential information rather than directly extracting sentences or phrases from the source text. AS is utilized in
+multiple mission-critical downstream tasks across various domains, including healthcare and law. Nevertheless, the existing state-of-the-art AS models are based on black-box deep learning models, such as Transformers, and they cannot explain why specific facts were included in the summary while others were omitted. This project proposes a novel framework for explaining which facts have been excluded from a summary by a given AS model and the rationale behind the selections. First, the effectiveness of existing feature attribution methods in explaining the decisions of AS models is analyzed. Then, a new framework, Fact Omission Explanation (FOE), is introduced, which utilizes a feature attribution method to analyze the fact selection process of a given AS model and generate a linguistic explanation of the facts excluded and their respective reasons. The proposed framework was assessed using the Pub-Med dataset, PEGASUS (a state-of-the-art AS model), and quantitative metrics. The results demonstrate that the generated explanations are effective in ensuring the trustworthiness of AS models in mission-critical domains, such as healthcare.
