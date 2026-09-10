@@ -32,35 +32,29 @@ nirasha:
 # Names only
 # ------------------------------------------------------------
 affin:
-  display_name: Affin Ajanthan
-  role: msc_taught_current
-
+    display_name: Affin Ajanthan
+    role: msc_taught_current
 suchira:
-display_name: Suchira Wanasinghe
-  role: msc_taught_current
-
+    display_name: Suchira Wanasinghe
+    role: msc_taught_current
 yasan:
-display_name: MYB Ranasinghe
-  role: msc_taught_current
-
+    display_name: MYB Ranasinghe
+    role: msc_taught_current
 chamika:
-display_name: Chamika Gunarathna
-  role: msc_taught_current
-
+    display_name: Chamika Gunarathna
+    role: msc_taught_current
 priyanthi:
-display_name: Priyanthi
-  role: msc_taught_current
-
+    display_name: Priyanthi
+    role: msc_taught_current
 chamith:
-display_name: Chamith Mirissage
-  role: msc_taught_current
-
-display_name: Nuwan Sanjeewa
-  role: msc_taught_current
-
+    display_name: Chamith Mirissage
+    role: msc_taught_current
 nuwan:
-display_name: Manjitha Kularatne
-  role: msc_taught_current
+    display_name: Nuwan Sanjeewa
+    role: msc_taught_current
+manjitha:
+    display_name: Manjitha Kularatne
+    role: msc_taught_current
 
 
 # ------------------------------------------------------------
@@ -69,13 +63,12 @@ display_name: Manjitha Kularatne
 # ------------------------------------------------------------
 
 shamila:
-display_name: Shamila Dasanayaka
-  role: msc_taught_alumni
+    display_name: Shamila Dasanayaka
+    role: msc_taught_alumni
 
 pasadie:
-
-display_name: Pasadie Panawenna
-  role: msc_taught_alumni
+    display_name: Pasadie Panawenna
+    role: msc_taught_alumni
 
 
 # ------------------------------------------------------------
@@ -84,20 +77,20 @@ display_name: Pasadie Panawenna
 # ------------------------------------------------------------
 
 ovindu:
-display_name: Ovindu Athukorala
-  role: undergraduate_current
+    display_name: Ovindu Athukorala
+    role: undergraduate_current
 
 biruthaban:
-display_name: V. Birunthaban
-  role: undergraduate_current
+    display_name: V. Birunthaban
+    role: undergraduate_current
 
 illampooran:
-display_name: R. Ilampoornan
-  role: undergraduate_current
+    display_name: R. Ilampoornan
+    role: undergraduate_current
 
 shaveen:
-display_name: Shaveen Silva
-  role: undergraduate_current
+    display_name: Shaveen Silva
+    role: undergraduate_current
 
 
 # ------------------------------------------------------------
@@ -106,24 +99,24 @@ display_name: Shaveen Silva
 # ------------------------------------------------------------
 
 nipun:
-display_name: Nipun Deelaka
-  role: undergraduate_alumni
+    display_name: Nipun Deelaka
+    role: undergraduate_alumni
 
 devin:
-display_name: Devin De Silva
-  role: undergraduate_alumni
+    display_name: Devin De Silva
+    role: undergraduate_alumni
   
 ruwan:
-display_name: Ruwan Ranasinghe
-  role: undergraduate_alumni
+    display_name: Ruwan Ranasinghe
+    role: undergraduate_alumni
 
 suwan:
-display_name: Suwan Sankaja
-  role: undergraduate_alumni
+    display_name: Suwan Sankaja
+    role: undergraduate_alumni
 
 sandeeptha:
-display_name: R. P. G Sandeeptha
-  role: undergraduate_alumni
+    display_name: R. P. G Sandeeptha
+    role: undergraduate_alumni
     
 collab-a:
     display_name: "Dr. Sanka Rasnayake, NUS"
