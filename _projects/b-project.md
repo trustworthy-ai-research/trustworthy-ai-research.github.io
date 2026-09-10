@@ -6,10 +6,8 @@ description: |
 
 people:
   - prof-a
-  - collab-a
-  - madushika
+  - pasadie
   - prof-b
-  - profx
 
 layout: project
 last-updated: 2022-05-01
