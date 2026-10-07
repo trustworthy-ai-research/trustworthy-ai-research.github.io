@@ -41,8 +41,8 @@ role-tables:
 </section>
 
 <section>
-    <h2>Research</h2>
-    <div class="card-columns">
+    <h2>Recent Projects</h2>
+    <div class="row">
         {% comment %}
         Sort the projects by date, putting those without dates last
         {% endcomment %}
@@ -50,7 +50,9 @@ role-tables:
         {% assign projects_by_date = projects_by_date | reverse %}
         {% for p in projects_by_date %}
             {% if p.status != "inactive" %}
-                {% include project-card.html project=p %}
+                <div class="col-lg-4 col-md-6 mb-4">
+                    {% include project-card.html project=p %}
+                </div>
             {% endif %}
         {% endfor %}
     </div>
