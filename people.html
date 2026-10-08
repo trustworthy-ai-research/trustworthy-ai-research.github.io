@@ -10,12 +10,24 @@ picture-role-groups:
 - {roles: [msc_taught_alumni], width: 8}
 ---
 
-<section class="people row justify-content-between">
-        {% for role-group in page.picture-role-groups %}
-        <div class="col-md-{{ role-group.width }}">
-            {% for role in role-group.roles %}
-                {% include role-people.html role=role image=true %}
-            {% endfor %}
-        </div>
-    {% endfor %}
+<section class="people">
+
+    <!-- Faculty -->
+    {% include role-people.html role="faculty" image=true %}
+
+    <!-- Collaborators -->
+    {% include role-people.html role="collab" image=true %}
+
+    <!-- Current Full-Time Graduate Students -->
+    {% include role-people.html role="grad" image=true %}
+
+    <!-- Undergraduate Students -->
+    {% include role-people.html role="ugrad" image=false %}
+
+    <!-- Part-Time Graduate Students -->
+    {% include role-people.html role="msc_taught_current" image=false %}
+
+    <!-- Alumni -->
+    {% include role-people.html role="ugrad-alum" image=false %}
+
 </section>
