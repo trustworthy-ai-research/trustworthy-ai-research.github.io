@@ -8,10 +8,6 @@ prof-b:
     display_name: "Prof. Dulani Meedeniya"
     webpage: "https://sites.google.com/site/dameedeniya/"
     role: faculty
-prof-c:
-    display_name: "Prof. Dulani Meedeniya"
-    webpage: "https://sites.google.com/site/dameedeniya/"
-    role: faculty
 # ------------------------------------------------------------
 # MSc by Research - Current
 # ------------------------------------------------------------
@@ -133,12 +129,6 @@ collab-a:
     image: /img/people/sanka.jpeg
 
 collab-b:
-    display_name: "Dr. Dileepa Fernando, NTU"
-    webpage: "https://www.linkedin.com/in/fernandodileepa/?originalSubdomain=sg"
-    role: collab
-    image: /img/people/Dr.Dileepa.jpeg
-    
-collab-c:
     display_name: "Dr. Dileepa Fernando, NTU"
     webpage: "https://www.linkedin.com/in/fernandodileepa/?originalSubdomain=sg"
     role: collab
