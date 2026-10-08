@@ -1,18 +1,33 @@
 
-{% assign role-key = include.role %}
+{% assign people = site.data.people | sort: "display_name" %}
 
-{% for role in site.roles %}
-    {% if role.key == role-key %}
-        <h3 class="pt-3"> {{ role.name }} </h3>
-        <div class="row">
-            {% for item in site.data.people %}
-                {% assign person = item[1] %}
-                {% if person.role == role.key %}
-                    <div class="person-column">
-                        {% include person.html person=person image=include.image %}
-                    </div>
-                {% endif %}
-            {% endfor %}
-        </div>
-    {% endif %}
-{% endfor %}
+<div class="people-group">
+
+    {% for role_item in site.roles %}
+        {% if role_item.key == role %}
+
+            <h3 class="people-group-title">
+                {{ role_item.name }}
+            </h3>
+
+            <div class="people-grid">
+
+                {% for person in people %}
+                    {% if person[1].role == role %}
+
+                        <div class="person-column">
+                            {% include person.html
+                                person=person[1]
+                                image=include.image
+                            %}
+                        </div>
+
+                    {% endif %}
+                {% endfor %}
+
+            </div>
+
+        {% endif %}
+    {% endfor %}
+
+</div>
